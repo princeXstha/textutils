@@ -40,7 +40,7 @@ function App() {
   return (
     <>
     <Router>
-        <Navbar showAlert={showAlert} title="TEXTUTILS" mode={mode} toggleMode={toggleMode}/>
+        <Navbar showAlert={showAlert} title="TEXT CHAMELEON" mode={mode} toggleMode={toggleMode}/>
         <Alert alert={alert}/>
         <div className="container my-4">
         <Switch>
